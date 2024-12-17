@@ -6,6 +6,7 @@ import { useState } from "react";
 
 function App() {
   let items = ["New York", "San Francisco", "Tokyo", "London", "Paris"];
+  let items02 = ["Banana", "Apple", "Kiwi", "Cherry", "Strawberry"];
   const handleSelectItem = (item: string) => {
     console.log(item);
   };
